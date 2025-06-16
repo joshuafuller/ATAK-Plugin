@@ -342,7 +342,7 @@ public class MeshtasticMapComponent extends DropDownMapComponent
 
     @Override
     public void processCotEvent(CotEvent cotEvent, String[] strings) {
-        
+
         Log.d(TAG, "processCotEvent");
 
         CotDetail cotDetail = cotEvent.getDetail();
@@ -828,7 +828,7 @@ public class MeshtasticMapComponent extends DropDownMapComponent
                 mw.setIcon("red");
             }
         };
-        
+
         boolean ret = view.getContext().bindService(mServiceIntent, mServiceConnection, Context.BIND_AUTO_CREATE);
         if (!ret) {
             Toast.makeText(getMapView().getContext(), "Failed to bind to Meshtastic IMeshService", Toast.LENGTH_LONG).show();

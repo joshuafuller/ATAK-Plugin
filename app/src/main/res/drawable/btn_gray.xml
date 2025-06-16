@@ -8,9 +8,9 @@
         android:state_enabled="true"
         android:state_selected="true"
         android:drawable="@drawable/new_dark_button_selected" />
-    <item 
+    <item
         android:state_enabled="true"
-        android:state_checked="true" 
+        android:state_checked="true"
         android:drawable="@drawable/new_dark_button_selected"  />
     <item
         android:state_enabled="false"
